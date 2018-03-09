@@ -1,0 +1,36 @@
+{
+  "appName": "SNOde: Debug",
+  "port": 3000,
+  "dbConfig": {
+    "url": "mongodb://localhost:27017",
+    "db": "Phoenix"
+  },
+
+  "root": {
+    "userName": "kkumawat",
+    "password": "hello1world!",
+    "email": "nk0kumawat@gmail.com"
+  },
+  "crypto": {
+    "TokenKey": "TokenKey.pem",
+    "TokenSaltLength": 16,
+    "MinPasswordIterations": 4,
+    "MaxPasswordIterations": 20,
+    "SessionKey": "SessionKey.txt",
+    "ResetTokenExpiry": 6,
+    "ResetTokenLength": 32,
+    "JwtExpiration": 12,
+    "MinPasswordLength": 8,
+    "MaxPasswordLength": 32
+  },
+  "mail": {
+    "service": "gmail",
+    "email": "nk0kumawat@gmail.com",
+    "password": "nknknknk!"
+  },
+  "uploads": {
+    "dir": "uploads/",
+    "dbName": "collection.json",
+    "simultaneousFileLimit": 10
+  }
+}
