@@ -65,7 +65,7 @@ $(document).ready(function() {
                 localStorage.name = data.body.name;
                 localStorage.email = data.body.email;
                 localStorage.userID = data.body.userID;
-                window.location.assign('dashboard.html');
+                window.location.assign('/pay');
             } else if (data.head.code === 700) {
                 $('#sign-up-error-msg').text('Password too short');
                 $('#enabler').removeClass('disabled');
