@@ -17,7 +17,7 @@ $(document).ready(function() {
 		function(data, status) {
 			console.dir(data);
 			if(data.head.code === 200) {
-				window.location.assign('dashboard.html');
+				window.location.assign('/pay');
 				localStorage.token = data.body.token;
 				localStorage.name = data.body.name;
 				localStorage.email = data.body.email;
